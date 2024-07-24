@@ -6,7 +6,7 @@ st.write("Microsoft Excelの機能をプログラムから操作するためのA
 
 st.write("実際にどのような使い方ができるかご紹介します！")
 
-st.write("A1：法人名、B1：法人番号、C1：郵便番号、D1：所在地、E1：登録番号、F1：登録有無の見出しを入力します")
+st.write("見出しとして　A1：法人名、B1：法人番号、C1：郵便番号、D1：所在地、E1：登録番号、F1：登録有無、G1：登録会社名　を入力します")
 
 st.write("A2に法人名を手入力します")
 
@@ -26,7 +26,7 @@ st.write("=\"T\"＆B2")
 st.write("F2にインボイス登録の有無を取得する式を設定します")
 st.write("=WEBSERVICE(\"https://api.excelapi.org/company/invoice_check?id=\"&$E2)")
 
-st.write("G2に法人の会社名を取得する式を設定します")
+st.write("G2に登録されている会社名を取得する式を設定します")
 st.write("=WEBSERVICE(\"https://api.excelapi.org/company/name?id=\"&$B2)")
 
 st.write("詳しくは、ExcelAPIの公式ドキュメントをご覧ください：[ExcelAPI公式ドキュメント](https://excelapi.org/docs/)")

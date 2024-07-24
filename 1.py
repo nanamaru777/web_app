@@ -29,4 +29,5 @@ st.write("=WEBSERVICE(\"https://api.excelapi.org/company/invoice_check?id=\"&$E2
 st.write("G2に登録されている会社名を取得する式を設定します")
 st.write("=WEBSERVICE(\"https://api.excelapi.org/company/name?id=\"&$B2)")
 
-st.write("詳しくは、ExcelAPIの公式ドキュメントをご覧ください：[ExcelAPI公式ドキュメント](https://excelapi.org/docs/)")
+st.write("このように難しい操作は一切なく情報が取得できます")
+st.write("他にも便利なAPIが準備されておりますので詳しくは、ExcelAPIの公式ドキュメントをご覧ください：[ExcelAPI公式ドキュメント](https://excelapi.org/docs/)")
